@@ -1,0 +1,372 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav ul li a{
+	font-family: 'Righteous', cursive;
+}
+
+
+		#nav{
+     justify-content: space-evenly;
+	box-shadow: 5px 3px 10px 0px gray;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 2;
+}
+#nav img{
+width: 40%;
+
+}
+
+#nav form{
+	margin-top: 2px;
+}
+
+#demo{
+/*	position: relative;*/
+	margin-top: 33px;
+}
+
+
+.mens{
+	font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #764ba2, #fcb69f);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             font-weight: bold;
+             
+}
+
+
+#main1{
+	height: 500px;
+	width: 100%;
+
+	background: linear-gradient(to bottom right, orange, yellow);
+}
+
+#main1 .main1-child h1{
+	font-family: 'Tilt Prism', cursive;
+    color: white;
+	width: 70%;
+/*	background-color: red;*/
+	position: relative;
+	top: 80px;
+	font-size: 12vw;
+/*   font-family: Arial, Helvetica, sans-serif;*/
+   font-weight: bold;
+}
+
+#main1 .main1-child h1:hover{
+	font-family: 'Tilt Prism', cursive;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #764ba2, #fcb69f);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             font-weight: bold;
+}
+
+#main2{
+	background: linear-gradient(to bottom right, orange, yellow);
+    opacity: ;
+}
+
+.btn{
+	width: 150px;
+	font-size: 20px;
+	word-spacing: 2;
+}
+
+
+.btn:hover{
+color: white;
+background: linear-gradient(to bottom right,red,orange);
+}
+
+.checked {
+  color: orange;
+}
+
+#star-rating{
+position: sticky;
+text-align: right;
+}
+
+#main3{
+	height: 600px;
+	width: 100%;
+	background: linear-gradient(to bottom right, orange, yellow);
+}
+
+#main3  h1{
+text-align: center;
+    color: white;
+	width: 70%;
+	position: relative;
+    left: 100px;
+    font-weight: bold;
+	top: 100px;
+	font-size: 9vw;
+	font-family: 'Tilt Prism', cursive;
+}
+
+#main3 h1:hover{
+	font-family: 'Tilt Prism', cursive;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #764ba2, #fcb69f);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             font-weight: bold;
+}
+
+#main3  div span img{
+   padding-left: 50%;
+}
+
+#sk1, #sk2, #sk3, #sk4, #sk5 , #sk6{
+	height: 310px;
+	width:100%;
+}
+
+#main4{
+/*	margin-bottom: 50px;*/
+
+	height: 570px;
+	width: 100%;
+	color: white;
+    background: linear-gradient(to bottom right, orange, yellow);
+}
+
+#main4  h1{
+text-align: center;
+	width: 70%;
+	position: relative;
+	left: 100px;
+    font-family: 'Tilt Prism', cursive;
+	top: 60px;
+	font-size: 10vw;
+	font-weight: bold;
+}
+
+#main4  h1:hover{
+font-family: 'Tilt Prism', cursive;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, #764ba2, #fcb69f);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             font-weight: bold;	
+}
+
+#place{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+
+#place h1{
+	font-size: 100px;
+	text-align: center;
+	color: black;
+}
+
+
+ #plce1,#plce2, #plce3, #plce4, #plce5, #plce6, #plce7, #plce8, #plce9 {
+	height: 80px;
+	width: 400px;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+/*	opacity: 0.9;*/
+	border: 1px solid gray;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+/*	box-shadow: 2px 2px 2px 2px gray;*/2}
+#plce1:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce2:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce3:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce4:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce5:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce6:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce7:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce8:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+#plce9:hover{
+box-shadow: 2px 2px 2px 5px black;	
+}
+
+#footer{
+	margin-top: 50px;
+}
+#twiter{
+	width: 10px;
+}
+
+.icons{
+	width: 30px;
+}
+
+#f1 a{
+	text-decoration: none;
+	color: white;
+}
+#social-media{
+	justify-content: space-evenly;
+	text-align: center;
+	padding-top: 8px;
+	font-weight: bold;
+}
+
+#myDIV{
+	margin-bottom: -20px;
+/*	display: none;*/
+}
+
+footer{
+	display:block;
+	background-color: green;
+	width: 100%;
+margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+#crd1 p , #card-4 p, #card-5 p, #card-6 p{
+	font-family: 'Tilt Warp', cursive;
+}
+
+#SK1 P ,#SK2 P, #SK3 P, #SK4 P, #SK5 P, #SK6 P {
+   font-family: 'Tilt Warp', cursive;
+}
+
+#CH1 P,#CH2 P,#CH3 P,#CH4 P,#CH5 P,#CH6 P{
+  font-family: 'Tilt Warp', cursive;	
+}
+
+/*#container{
+	position:relative;
+	width: 15%;
+	left: 295px;
+	top: 60px;
+	bottom: 550px;
+	z-index: 2;
+	font-family: 'Tilt Prism', cursive;
+  }
+
+  .container ul li{
+  	color: linear-gradient(to right, darkred, blue);
+  }*/
+
+#discount{
+	height: 100px;
+	border: none;
+	border-radius: 100%;
+	position:relative;
+	left: 1000px;
+	background-color: green;
+	z-index: 1;
+	bottom: 7900px;
+}
+
+.search-hover {
+  border: 5px solid rgba(100, 20, 100, 0.4);
+  outline: none;
+  border-radius: 10px;
+  width: 50px;
+  height: 40px;
+  padding: 25px;
+  margin-left: 20px;
+  transition: all 0.5s;
+  background-color: white;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 25px;
+
+}
+.search-hover:hover {
+  width: 300px;
+  padding-left: 50px;
+}
+
+#about{
+	font-family: 'Mukta', sans-serif;
+	color: white;
+	background-color: #1abc9c;
+    font-weight: bold;
+
+}
+
+.gradient-custom {
+/* fallback for old browsers */
+background: #6a11cb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+  #main1 .main1-child h1 {
+    padding-top: 20%;
+/*    background-image: url(boypng.png);*/
+/*    background-repeat: no-repeat;*/
+  }
+
+#main3  h1{
+text-align: center;
+	width: 90%;
+	position: relative;
+    left: 30px;
+    font-weight: bold;
+	top: 170px;
+	font-size: 13vw;
+	font-family: 'Tilt Warp', cursive;
+}
+
+#main4  h1{
+text-align: center;
+	width: 70%;
+	position: relative;
+	left: 100px;
+    font-family: 'Tilt Warp', cursive;
+	top: 45%;
+	font-size: 10vw;
+	font-weight: bold;
+}
+.search-hover {
+	margin-left: 40px;
+	border: 5px solid rgba(255, 0, 0, 0.6);
+}
+
+
+
+}
